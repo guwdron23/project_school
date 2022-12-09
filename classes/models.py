@@ -9,3 +9,6 @@ class Classes(models.Model):
         return self.title
 
 
+class Meta:
+    verbose_name = 'Класс'
+    verbose_name_plural = 'Классы'

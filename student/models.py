@@ -12,3 +12,8 @@ class Student(models.Model):
                              help_text='Номер должен содержать междкнародный формат')
     live = models.CharField(max_length=255, verbose_name="Место проживания")
     image = models.ImageField(upload_to='news/', verbose_name="Изоброжение",blank=True,null=True)
+
+
+class Meta:
+    verbose_name = 'Студент'
+    verbose_name_plural = 'Студенты'
