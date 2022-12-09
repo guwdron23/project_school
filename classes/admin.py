@@ -1,3 +1,11 @@
 from django.contrib import admin
 
-# Register your models here.
+from .models import Classes
+
+
+class ClassesAdmin(admin.ModelAdmin):
+    list_display = ['number', 'title', 'curator']
+
+
+
+admin.site.register(Classes, ClassesAdmin)
