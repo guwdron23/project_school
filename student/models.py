@@ -14,6 +14,6 @@ class Student(models.Model):
     image = models.ImageField(upload_to='news/', verbose_name="Изоброжение",blank=True,null=True)
 
 
-class Meta:
-    verbose_name = 'Студент'
-    verbose_name_plural = 'Студенты'
+    class Meta:
+        verbose_name = 'Студент'
+        verbose_name_plural = 'Студенты'
