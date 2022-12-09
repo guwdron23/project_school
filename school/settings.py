@@ -41,6 +41,8 @@ INSTALLED_APPS = [
     'zavuch.apps.ZavuchConfig',
     'lessons.apps.LessonsConfig',
     'student.apps.StudentConfig',
+    'Director.apps.DirectorConfig',
+    'classes.apps.ClassesConfig',
 
 ]
 
