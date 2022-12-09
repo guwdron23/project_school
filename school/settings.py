@@ -37,7 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'teachers.apps.TeachersConfig'
+    'teachers.apps.TeachersConfig',
+    'zavuch.apps.ZavuchConfig',
+    'lessons.apps.LessonsConfig',
 ]
 
 MIDDLEWARE = [
